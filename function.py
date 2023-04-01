@@ -94,3 +94,15 @@ def default_para(country="Australia"):
 default_para("Sri Lanka")
 default_para("America")
 default_para()
+
+
+""" passing a list as an argument"""
+
+
+def myFavFood(food):
+    for x in food:
+        print("i love these fruits: " ,x)
+
+fruits=["apple","banana", "orange"]
+
+myFavFood(fruits)
