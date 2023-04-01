@@ -83,3 +83,14 @@ def children_name(**child):
 
 children_name(fname="Emil", lname="Fernando")
 
+
+""" Default Parameter Value"""
+
+
+def default_para(country="Australia"):
+    print("my country is " + country)
+
+
+default_para("Sri Lanka")
+default_para("America")
+default_para()
