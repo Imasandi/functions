@@ -71,3 +71,15 @@ def children(child3, child2, child1):
 
 
 children(child1="Emil", child2="Tobias", child3="Linus")  # reformat the args using keywords of the arguments
+
+"""Arbitrary Keyword Arguments, **kwargs"""
+
+
+# if you don't know how many keyword args are there
+#  add ** before  the parameter name
+def children_name(**child):
+    print("His last name is " + child["lname"]) # +child["lname"]
+
+
+children_name(fname="Emil", lname="Fernando")
+
