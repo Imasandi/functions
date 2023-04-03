@@ -106,3 +106,24 @@ def myFavFood(food):
 fruits=["apple","banana", "orange"]
 
 myFavFood(fruits)
+
+
+
+""" Return Values"""
+# TO LET FUNCTION RETURN A VALUE
+# Just put "return" after defining the function
+
+def retrn_val(x):
+    return 5*x
+print ("no:" ,retrn_val(4))
+print(retrn_val(3))
+
+"""The pass Statement"""
+
+# FUNCTION DEFENITION can't be empty
+# if it wants to be, put pass
+# to avoid errors
+
+def pass_state():
+    pass
+
